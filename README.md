@@ -5,13 +5,14 @@ This is a coding demonstration for StrongMind review.  This is also a great lear
 
 Upon running the project BowlingScoreCalculator, the user is provided with short instructions and an input legend in the window frame.
 
-I began the exercise by creating AWT elements, like the frame and layout.  I needed to familiarize myself with this as I am new to AWT.  This coerced me into the decision to build around the GUI model instead of the logic model.  This created some unncessary challenges, but was a great learning experience.  In retrospect, I should have prioritized the calculator logic.  I knew this... but here we are.
+I began the exercise by creating AWT elements, like the frame and layout.  I needed to familiarize myself with this as I am new to AWT.  This influenced me to build around the GUI model instead of the logic model.  This created some unncessary challenges and constraints, but was a great learning experience.  In retrospect, I should have prioritized the calculator logic due to it being the core element of this project, as you might expect.  I knew this... but here we are.
 
 Thank you for taking the time to review this.
 
 
 ---
 To do:
+  - Auto-increment to the next input field, upon user input
   - Include Unit Testing
   - Important logic cleanup needed in:
       BowlingCalculator:
