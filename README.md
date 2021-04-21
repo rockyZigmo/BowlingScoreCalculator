@@ -14,7 +14,7 @@ Thank you for taking the time to review this.
 To do:
   - Auto-increment to the next input field, upon user input
   - Include Unit Testing
-  - Important logic cleanup needed in:
+  - Important logic cleanup is needed in:
       BowlingCalculator:
         updateResults()
         getTotalScore()
@@ -22,5 +22,6 @@ To do:
       CustomTextField:
         initialize()
         onTextEntered()
+  - Maybe Regex can simplify some of the String/Char logic..?  Testing required to confirm.
   - Implement CustomPanel class to behave as a BowlingFrame to offload some of the current responsibilities of CustomTextField.  CustomTextField is meant to act as a round within the BowlingFrame, typically having 2 rounds, except in frame 10 having 3 rounds
   - Restructure GUI to eliminate unnecessary element usage and tighten AWT frame layout.
